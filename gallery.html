@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pet Rescue Shelter Center</title>
+    <link rel="stylesheet" href="CSS/Style.css" />
+  </head>
+  <body>
+    <div id="conatiner">
+      <header>
+        <a href="Index.html">
+          <img
+            src="images/pet-animal-shelter-low-resolution-color-logo.png"
+            alt="Logo"
+          />
+        </a>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faqs.html">FAQS</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!--Use the maon area to write the main content of the webiste-->
+      <main>
+        <div class="son">
+          <div id="youngmiro">
+            <img src="images/youngmiro.jpg" alt="young miro" />
+          </div>
+          <div id="oldermiro">
+            <img src="images/oldermiro.jpg" alt="older miro" />
+          </div>
+          <div id="caption1">
+            <h3>
+              The two images seen on the left are a before and after of our very
+              first cat at the facility called Miro. He is of a Ragdoll breed
+              which are distinct for their colorprint coat and their bright blue
+              eyes. The image on the left is when we first found him and the
+              image on the left is around the time he turned 1 years old. Miro
+              has a very bi-polar personality as he sometimes shows his extreme
+              energy or his extreme laziness, but he is fantastic regardless. He
+              was born on March 25, 2022.
+            </h3>
+          </div>
+        </div>
+
+        <div class="son">
+          <div id="ruby">
+            <img src="images/Ruby.jpg" alt="Golden Retriever" />
+          </div>
+          <div id="ruby">
+            <img src="images/rubyface.JPEG" alt="Golden Retiriever Face" />
+          </div>
+          <div id="caption2">
+            <h3>
+              This is Ruby, an 11 year old Golden Retriever, a breed known for
+              their undeniable loyalty and affection. Ruby is incredibly
+              friendly, generous, and gentle. Unfortunetly, the older a pet is,
+              the less likely they are to be adopted. However we are happy to
+              say that Ruby was rescued by a family in Connecticut, eager to
+              welcome this joyous dog into their home.
+            </h3>
+          </div>
+        </div>
+
+        <div class="son">
+          <div id="chikies_milo">
+            <img src="images/chikies_milo.jpg" alt="Golden Retriever" />
+          </div>
+          <div id="frog">
+            <img src="images/frog.jpg" alt="Golden Retiriever Face" />
+          </div>
+          <div id="caption3">
+            <h3>
+              To the left are Chikies and Milo. These two brother and sister
+              Shih-tzus puppies are 6 months old and are looking for a good
+              home. Adopting this pair is a great option to allow them to burn
+              off that crazy puppy energy. Shih Tzus are a social breed, not
+              only do they love to be around humans, but they enjoy the company
+              of other dogs too. To the right is Frog. He is two years old and
+              was found in the alley. Although he's socially awkward he will
+              grace you with a heartwarming headbutt that will make you feel
+              special.
+            </h3>
+          </div>
+        </div>
+
+        <div class="son">
+          <div id="kembakali_1">
+            <img src="images/kembakali_1.jpg" alt="Golden Retriever" />
+          </div>
+          <div id="kembakali_2">
+            <img src="images/kembakali_2.jpg" alt="Golden Retiriever Face" />
+          </div>
+          <div id="caption4">
+            <h3>
+              Meet Kemba and Kali, Miniature Poodle siblings, a breed renowned
+              for their intelligence and lively personalities. Despite being
+              siblings, they each have their own quirks - Kemba is the more
+              adventurous of the two, while Kali loves to snuggle up for a
+              cuddle. Often, potential adopters may overlook bonded pairs,
+              fearing the additional responsibility. However, we are thrilled to
+              share that these spirited siblings found their forever home with a
+              loving family in New Jersey, who are eager to embrace the double
+              dose of joy and companionship.
+            </h3>
+          </div>
+        </div>
+
+        <div id="form">
+          <h2>
+            Have a rescue pet? Send a picture of your furry friend to be
+            featured in our gallery!
+          </h2>
+          <h3>Complete the form below to showcase your pet!</h3>
+
+          <form class="form-grid">
+            <!--Start Form-->
+            <fieldset>
+              <legend>Your Information</legend>
+              <label for="fName"> First Name:</label>
+              <input type="text" id="fName" required />
+
+              <label for="lName"> Last Name:</label>
+              <input type="text" name="lName" id="lName" required />
+
+              <label for="email"> Email:</label>
+              <input type="email" name="email" id="email" required />
+            </fieldset>
+
+            <fieldset>
+              <legend>Your Pet's Information</legend>
+              <label for="fName"> Name:</label>
+              <input type="text" id="fName" required />
+
+              <label for="Name"> Breed/Kind of Animal:</label>
+              <input type="text" name="lName" id="lName" required />
+
+              <label for="gender"> Gender:</label>
+              <input type="radio" id="gender" name="gender" value="male" />
+              Male <br />
+              <input type="radio" id="gender" name="gender" value="female" />
+              Female <br />
+            </fieldset>
+
+            <fieldset>
+              <legend>Your Pet Pictures!</legend>
+              <label for="myfile">Select a file:</label>
+              <input type="file" id="myfile" name="myfile" />
+              <br /><br />
+            </fieldset>
+
+            <input type="submit" id="submit" value="submit" class="btn" />
+          </form>
+        </div>
+      </main>
+
+      <!--Use the footer area to write the main content of the website-->
+      <footer>
+        <p>&copy; Copyright 2023. All Rights reserved.</p>
+        <p>
+          <a href="mailtoPetRescueShelter@center.net">
+            PetRescueShelter@center.net</a
+          >
+        </p>
+        <div class="social">
+          <a href="https://www .facebook.com/fwdfitclub" target="_blank"
+            ><img
+              src="Images/facebook-logo.png"
+              alt="black and white Facebook logo"
+          /></a>
+
+          <a href="https://twitter.com /fwdfitclub" target="_blank"
+            ><img
+              src="Images/twitter-logo.png"
+              alt="black and white Twitter logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
